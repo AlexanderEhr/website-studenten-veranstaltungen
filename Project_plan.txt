@@ -1,0 +1,41 @@
+Klausurprojekt
+Dozent: Bishara Sabbagh
+Modul: PHPD
+Abgabe: 12.07.2024
+Klasse: FAH35
+
+Es soll eine Backend Website für das aus der PHPC Klausurprojekt entwickelt werden.
+Die Website soll mit HTML, CSS, PHP, OOP, MVC Entwurfsmuster, MySQL und
+PDO Webtechnologien realisiert werden. (Optional: auch die Webtechnologien
+JavaScript, AJAX und jQuery)
+
+Thema: EDV-Schule_Teil-2
+
+Anforderungen:
+
+    Alle Quellcode Dateien (PHP, MYSQL) müssen kommentiert werden.
+    Eine Dokumentation mit UML und „screen-shots” in „HTML”-Format.
+    Die Website soll Benutzerfreundlich sein.
+    Die Website soll sicher, was die Eingaben der Benutzer betrifft, sein.
+    Die Dateien sollten in entsprechende Unterordner platziert werden.
+    Die fertige Website soll in die Ordner „PHPD/Klausurprojekt” kopiert werden.
+    Fazit – Erfahrungen, Erfolge und Misserfolge.
+
+Zur PHP, MySQL und PDO sollen die Skripte die folgenden Bedingungen erfüllen:
+
+    Ein Migrationsskript für die Erweiterung der Datenbank.
+    Ein Such-Formular [mit einer Auswahl-Liste].
+    Admin Login/Logout-Formulare
+    Formulare für alle CRUD Aktionen
+    Eine Listen-Sicht und Einzel-Sicht Design in Templates
+    2 UML-Diagramme Verarbeiten in DIA und JPG Formate
+    Admin-Seiten-Navigation als Teil-Template(partial).
+    Fehlermeldungen und/oder Erfolgsmeldungen – „flash messages”
+    Minimale Sicherheit und Validierung sollten garantiert werden.
+    Active record Design Pattern implementieren
+    Auto-Loading implementieren
+    Klassen in Namespace Models kreieren
+    [Statistiken Seite]
+    README Wie, wo und was ... login, password ​
+
+​

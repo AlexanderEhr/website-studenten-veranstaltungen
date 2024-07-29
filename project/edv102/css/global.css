@@ -1,0 +1,225 @@
+/* global.css */
+
+/* Allgemeine Stile für die Webseite */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Container Styling */
+.register-container-div{
+    max-width: 35vw;
+}
+.container, .table, .register-container-div, main section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.seminare {
+    height: 60vh;
+    width: 40vw; /* Anpassung auf vw für ein besseres responsives Verhalten */
+}
+
+.seminar-container-div{
+    background: rgba(255, 255, 255, 0.8); /* Weißer, transparenter Hintergrund für die Section */
+    padding: 20px; /* Innenabstand */
+    margin: 10vh;
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Leichter Schatten */
+}
+
+/* Form Heading */
+h2, .welcome-message {
+    text-align: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label Styling */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Input Styling */
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"] { /* Korrigiert den Typ "password_s" zu "email" */
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button Styling */
+.btn, .btn-primary {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+}
+
+.btn:hover, .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #0066cc;
+}
+
+.btn-primary:hover {
+    background-color: #004d99;
+}
+
+/* Hauptbereich */
+.global-main-div {
+    display: flex; /* Verwenden von Flexbox für Layout-Zwecke */
+    flex-direction: column; /* Elemente innerhalb des Divs werden vertikal angeordnet */
+    align-items: center; /* Zentriert die Kinder-Elemente horizontal */
+    justify-content: center; /* Zentriert die Kinder-Elemente vertikal */
+    width: 100%; /* Volle Breite */
+    min-height: 100vh; /* Mindestens die volle Höhe des Viewports */
+    box-sizing: border-box; /* Inklusive Padding und Border in den Gesamtabmessungen */
+    color: #333; /* Textfarbe */
+    border: 1px solid #000000; /* Grauer Rand */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    background-image: url('../src/photo/unihannover.webp'); /* Pfad zum Bild */
+    background-size: cover; /* Bild skaliert, um den gesamten Hintergrund abzudecken */
+    background-position: center; /* Bild wird zentriert */
+    background-repeat: no-repeat; /* Bild wird nicht wiederholt */
+}
+
+.global-main-div main {
+    width: 100%; /* Volle Breite */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    display: flex; /* Flexbox für zentrierten Inhalt */
+    justify-content: center; /* Zentrierung horizontal */
+    align-items: center; /* Zentrierung vertikal */
+    color: #333; /* Textfarbe */
+    box-sizing: border-box; /* Inklusive Padding und Border in den Gesamtabmessungen */
+}
+
+
+/* Tabelle */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.table th, .table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Header und Footer */
+.header-container, .footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.name-text a {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.footer-container p {
+    margin: 0;
+}
+
+.site-footer-wrapper {
+    position: flex;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.index-section-div {
+    display: flex; /* Verwenden von Flexbox für Zentrierung */
+    justify-content: center; /* Horizontale Zentrierung */
+    align-items: center; /* Vertikale Zentrierung */
+    height: 100vh; /* Volle Höhe des Viewports */
+}
+
+.index-section-div section div article{
+    text-align: center;
+    font-size: 1.2em;
+    color: #4A4A4A; 
+    font-family: 'Arial', sans-serif;
+}
+
+.index-section-div section, .container,
+.register-container-div {
+    background: rgba(255, 255, 255, 0.8); /* Weißer, transparenter Hintergrund für die Section */
+    padding: 20px; /* Innenabstand */
+    margin: 10vh;
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Leichter Schatten */
+}
+

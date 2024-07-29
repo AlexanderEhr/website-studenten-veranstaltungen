@@ -1,0 +1,108 @@
+klausurproject/
+├── csv/
+│   ├── seminare.csv
+│   └── termine.csv
+├── Documentation/
+│   ├── databasecreate.png
+│   ├── erstellen_project.png
+│   ├── klausurproject.dia
+│   ├── klausurproject.dia~
+│   ├── OOPklausurproject.dia
+│   ├── OOPklausurproject.dia.autosave
+│   ├── OOPklausurproject.dia~
+│   ├── projektstruktur.txt
+│   └── UMLerstellen.png
+├── project/
+│   ├── construkturen/
+│   │	 ├── edv102.const.php
+│   │	 ├── edv102.const.sql
+│   │	 ├── make_project.bat
+│   │	 ├── upload_seminare_csv.php
+│   │	 └── upload_termine_csv.php
+│   └── edv102/
+│   │   ├── admin/
+│   │   ├── classes/
+│   │   │   ├── Categories.php
+│   │   │   ├── DBUtility.php
+│   │   │   ├── Events.php
+│   │   │   ├── Location.php
+│   │   │   ├── Rooms.php
+│   │   │   ├── Seminar.php
+│   │   │   ├── Student.php
+│   │   │   └── StudentAppointments.php
+│   │   ├── css/
+│   │   │   ├── global_mobile.css
+│   │   │   └── global.css
+│   │   ├── include/
+│   │   │   ├── config.php
+│   │   │   ├── DBConnection.inc.php
+│   │   │   └── iDatenbank.php
+│   │   ├── src/
+│   │   │   ├── data/
+│   │   │   │   ├── seminare.csv
+│   │   │   │   └── termine.csv
+│   │   ├── helpers/
+│   │   │   ├── autoload.php
+│   │   │   ├── book.php
+│   │   │   ├── loadStyles.php
+│   │   │   ├── logout.php
+│   │   │   └── titleFunktion.php
+│   │   ├── photo/
+│   │   │   ├── campus-welfengarten-videoposter.webp
+│   │   │   └── unihannover.webp
+│   │   └── templates/
+│   │   │   ├── globalFooterHtml.php
+│   │   │   ├── globalHeaderHtml.php
+│   │   │   ├── globalNavbarHtml.php
+│   │   │   └── events.php
+│   │   └── index.php
+│   │   └── login.php
+│   │   └── register.php
+│   │   └── seminars.php
+├── Project_plan.txt
+├── README.txt
+└── TODO.txt
+
+
+@echo off
+
+:: Hauptverzeichnis erstellen
+mkdir klausurproject
+cd klausurproject
+
+:: csv-Verzeichnis und Dateien erstellen
+mkdir csv
+
+:: Documentation-Verzeichnis und Dateien erstellen
+mkdir Documentation
+
+:: project-Verzeichnis und Unterverzeichnisse erstellen
+mkdir project
+cd project
+mkdir construkturen
+mkdir edv102
+
+:: Unterverzeichnisse im edv102-Verzeichnis erstellen
+cd edv102
+mkdir admin
+mkdir classes
+mkdir css
+mkdir include
+mkdir src
+
+cd src
+mkdir helpers
+mkdir photo
+mkdir templates
+
+:: Zurück zum Hauptverzeichnis und restliche Dateien erstellen
+cd ..
+cd ..
+echo Projektplaninhalt > Project_plan.txt
+echo README-Inhalt > README.txt
+echo TODO-Inhalt > TODO.txt
+
+echo Projektstruktur erfolgreich erstellt!
+pause
+
+

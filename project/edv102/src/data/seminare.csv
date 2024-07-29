@@ -1,0 +1,33 @@
+titel,beschreibung,preis,kategorien_id
+KWIS,Wirtschafts- und Geschäftsprozesse,1750,4
+WISO,Wirtschafts- und Soziallehre,1456,4
+WARE,Wirtschafts- und Arbeitsrecht,1234,4
+GRHW,Grundlagen Hardware,1876,2
+GRDB,Grundlagen Relationale Datenbanken / SQL,1622,1
+PCNE,Netzwerkgrundlagen,1357,2
+GLCC,Grundlagen Cloud-Computing,1988,2
+SCR1,Agiles Projektmanagement mit Scrum,1205,4
+SCR2,Certified Scrum Master,1556,4
+HCJ1,Programmierung in HTML5 mit JavaScript und CSS3 - Grundlagen,1765,1
+HCJ2,Programmierung in HTML5 mit JavaScript und CSS3 - Aufbaukurs,1433,1
+HCJ3,Programmierung in HTML5 mit JavaScript und CSS3 - Fortgeschrittene,1567,1
+OSE1,Objektorientierte Programmierung,1899,1
+UML1,UML - Unified Modeling Language,1123,1
+REAC,React,1743,1
+PYT1,Associate in Python Programming - Grundlagen,1244,1
+PYT2,Associate in Python Programming - Aufbaukurs,1665,1
+PYTP1,Associate in Python Programming - Zertifizierung,1956,1
+JCA1,OCFA Java Foundations - Grundlagen,1344,1
+JCA2,OCFA Java Foundations - Aufbaukurs,1432,1
+JCA3,OCFA Java Foundations - Zertifizierung,1777,1
+AWS11,AWS Certified: Developer Associate - Grundlagen,1989,2
+AWS12,AWS Certified: Developer Associate - Aufbaukurs,1345,2
+AWS13,AWS Certified: Developer Associate - Prüfungsvorbereitung und Zertifizierung,1567,2
+PHPA,Objektorientierte Programmierung mit PHP: Grundlagen der PHP-Programmierung,1888,3
+PHPB,Objektorientierte Programmierung mit PHP: Webentwicklung mit PHP,1112,3
+PHPC,Objektorientierte Programmierung mit PHP: PHP & Datenbanken,1444,3
+PHPD,"Objektorientierte Programmierung mit PHP: Fremdformate, Administration und Sicherheit mit PHP",1999,3
+PHPE,Objektorientierte Programmierung mit PHP: PHP-Fallstudie,1222,3
+ZEND,Zend-PHP-Zertifizierung,1666,3
+WPR1,Word Press - Grundlagen,1444,3
+WPR2,Word Press - Aufbaukurs,1221,3

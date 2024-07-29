@@ -1,0 +1,8 @@
+TODO
+
+1. Locations seite erstellen
+2. Admin bereich erstellen
+3. Admin funktionen einfügen
+4. Auf sicherheit überprüfen
+5. Fehler corektur 
+6. Namespaces im project einfügen
